@@ -9,7 +9,7 @@
 </head>
 <body>
    <div class="grid-container">
-    <input type="text" placeholder="N/A" class="inp" id="input">	
+    <input type="text" placeholder="0" class="inp" id="input">	
     <button type="submit" class="grid-item" onclick="one()">1</button>
     <button type="submit" class="grid-item" onclick="two()">2</button>
     <button type="submit" class="grid-item" onclick="three()">3</button>
@@ -20,13 +20,12 @@
     <button type="submit" class="grid-item" onclick="eight()">8</button>
     <button type="submit" class="grid-item" onclick="nine()">9</button>
     <button type="submit" class="grid-item" onclick="zero()">0</button>
-    <button type="submit" class="grid-item">x</button>
-    <button type="submit" class="grid-item">+</button>
-    <button type="submit" class="grid-item">-</button>
-    <button type="submit" class="grid-item">÷</button>
-    <button type="submit" class="grid-item">=</button>
-    <button type="submit" class="grid-item">clear</button>
-
+    <button type="submit" class="grid-item op" id="times" >x</button>
+    <button type="submit" class="grid-item op" id="add">+</button>
+    <button type="submit" class="grid-item op" id="sub">-</button>
+    <button type="submit" class="grid-item op" id="divide">÷</button>
+    <button type="submit" class="grid-item op" id="equal">=</button>
+    <button type="submit" class="grid-item" onclick="reset()">clear</button>
    </div>
 
    <script src="app.js"></script>

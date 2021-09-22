@@ -7,6 +7,10 @@ body {
   height: 100vh;
 }
 
+.op {
+  background-color: aqua;
+}
+
 .inp {
   grid-column-start: 1;
   grid-column-end: 4;
