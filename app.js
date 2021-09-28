@@ -89,7 +89,6 @@ divide.onclick = function () {
 console.log(num1)
 
 equal.onclick = function () {
-
    num1 + inp.value;
    alert(inp.value)
 }
