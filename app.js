@@ -77,8 +77,6 @@ function reset () {
 //logic
 
 
-
-
 divide.onclick = function () {
   
   var num1 = document.getElementById("input").value;
