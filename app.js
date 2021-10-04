@@ -77,16 +77,53 @@ function reset () {
 //logic
 
 
+
+
+ 
 divide.onclick = function () {
   
-  var num1 = document.getElementById("input").value;
+  let num1 = document.getElementById("input").value;
   alert(num1);
+  equal.onclick = function () {
+  x + inp.value;
+  alert(inp.value)
+}
 
 }
 
-console.log(num1)
 
-equal.onclick = function () {
-   num1 + inp.value;
-   alert(inp.value)
+function calculator (x, b, c) {
+  let output = 0;
+
+  try {
+
+    switch(c) {
+      case '+':
+        output = a + b
+        break;
+
+      case '*':
+        output = a * b
+        break;
+
+      case '-':
+        output = a - b
+        break;
+
+     case '/': 
+        if (b === 0) {
+          throw "Can't divide by 0!"
+        } else {
+          output = a / b
+        }
+        break;
+    }
+  }
+  catch(e) {
+    console.log("There's an error: ", e)
+  }
+
+  return output;
 }
+
+console.log(calculator(2,8,'*'));
