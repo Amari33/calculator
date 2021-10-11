@@ -80,16 +80,7 @@ function reset () {
 
 
  
-divide.onclick = function () {
-  
-  let num1 = document.getElementById("input").value;
-  alert(num1);
-  equal.onclick = function () {
-  x + inp.value;
-  alert(inp.value)
-}
 
-}
 
 
 function calculator (x, b, c) {
@@ -103,7 +94,7 @@ function calculator (x, b, c) {
         break;
 
       case '*':
-        output = a * b
+        output = x * b
         break;
 
       case '-':
@@ -124,6 +115,18 @@ function calculator (x, b, c) {
   }
 
   return output;
+  
+}
+x = 5;
+divide.onclick = function () {
+  
+  let num1 = document.getElementById("input").value;
+  alert(num1);
+  equal.onclick = function () {
+  x + inp.value;
+  alert(inp.value)
+}
+
 }
 
 console.log(calculator(2,8,'*'));
