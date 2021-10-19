@@ -128,5 +128,5 @@ divide.onclick = function () {
 }
 
 }
-
+ 
 console.log(calculator(2,8,'*'));
