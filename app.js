@@ -115,7 +115,7 @@ function calculator (x, b, c) {
   }
 
   return output;
-  
+   
 }
 x = 5;
 divide.onclick = function () {
