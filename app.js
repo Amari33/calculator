@@ -109,7 +109,7 @@ function calculator (x, b, c) {
         }
         break;
     }
-  }
+  } 
   catch(e) {
     console.log("There's an error: ", e)
   }
