@@ -108,7 +108,7 @@ function calculator (x, b, c) {
           output = a / b
         }
         break;
-    }
+    } 
   } 
   catch(e) {
     console.log("There's an error: ", e)
