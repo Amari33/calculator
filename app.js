@@ -92,7 +92,7 @@ function calculator (x, b, c) {
       case '+':
         output = a + b
         break;
-
+ 
       case '*':
         output = x * b
         break;
